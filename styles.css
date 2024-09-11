@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    padding: 20px;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #003366;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #666;
+    margin-top: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #003366;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #003366;
+}
+
+p, li {
+    font-size: 16px;
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.contact a, .contact p {
+    font-size: 16px;
+}
+
+.contact a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills ul li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.projects h4, .work-experience h4 {
+    margin-top: 20px;
+}
+
